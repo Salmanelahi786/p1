@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    background-color: rgb(8, 1, 1);
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  
+  h1 {
+    color: #ccc200;
+    padding-left: 200px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+  }
+  /* Reset some default styles for better consistency */
+body {
+    margin:auto;
+    padding: 10px;
+    list-style: upper-alpha;
+    text-decoration: black;
+  }
+  
+  /* Basic styling for the navigation bar */
+  header {
+    background-color: #1dbcd5;
+    padding: 8px;
+    box-shadow: #ccc200;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+margin-left: 100px;
+}
+  
+  /* Style for navigation links */
+  nav a {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #8b8b8b;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: center;
+      align-items: center;
+    }
+  
+    nav a {
+      margin: 5px 0;
+    }
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+  }
+  .card-text
+  {
+color: aliceblue;
+
+
+  }
+.btn
+{
+color: #1dbcd5;
+
+
+}
